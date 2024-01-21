@@ -1,0 +1,28 @@
+<!--<p-menubar [model]="items"></p-menubar>-->
+<header>
+  <div  class="container">
+    <div class="row">
+      <div class="teste1">
+        <div class="logo">
+          <img src="assets/images/logo.png" alt="logo">
+        </div>
+      </div>
+      <div class="teste">
+      <div class="menu_icon" [class.menu_iconClass]="menu_icon_variable" (click)="openMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+        <div class="menu" [class.menuClasse]="menuVariable">
+          <ul>
+            <li><a href="#">Teste</a></li>
+            <li><a href="#">Teste</a></li>
+            <li><a href="#">Teste</a></li>
+            <li><a href="#">Teste</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+```
