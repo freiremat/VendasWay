@@ -1,6 +1,6 @@
 header{
   padding:20px 0;
-  background-color: #222;
+  background-color: var(--dark-black--1);
 }
 .row{
   display: flex;
@@ -40,7 +40,7 @@ img{
   display: block;
 }
 .menu ul li a:hover{
-  color: #e9c62c;
+  color: var(--yellow--1);
   cursor: pointer;
   transform: scale(75%);
 //  transition: all ease 500ms;

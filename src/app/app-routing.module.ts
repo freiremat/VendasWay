@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeaderComponent } from './components/header/header.component';
+import { PrivacyPolicyComponent } from './privacyPolicy/privacyPolicy.component';
 
 const routes: Routes = [
-  {
-    path:'',
-    component: HeaderComponent 
-  }
+  { path: 'new', component: PrivacyPolicyComponent },
 ];
 
 @NgModule({
