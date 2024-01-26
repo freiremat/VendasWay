@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PrivacyPolicyComponent } from './privacyPolicy/privacyPolicy.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatMenuModule } from '@angular/material/menu'; 
+import {MatIconModule} from '@angular/material/icon'
+
 
 @NgModule({
   declarations: [
@@ -16,7 +20,10 @@ import { PrivacyPolicyComponent } from './privacyPolicy/privacyPolicy.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatToolbarModule,
+    MatMenuModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
