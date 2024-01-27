@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PrivacyPolicyComponent } from './privacyPolicy/privacyPolicy.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
