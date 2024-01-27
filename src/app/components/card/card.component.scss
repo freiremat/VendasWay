@@ -5,7 +5,7 @@
   background-color: var(--light--yellow--3);
   gap: 20px;
   width: auto;
-  height: 400px;
+  height: auto;
 
   &__title {
     font-size: 36px;
@@ -13,15 +13,45 @@
     text-align: center;
   }
 
-  &__paragraph{
+  &__paragraph {
     font-size: 30px;
     text-align: center;
-    letter-spacing: .075rem;
+    letter-spacing: 0.075rem;
+  }
+
+  &__goal {
+    text-align: center;
+    font-weight: 300;
+    margin: 0 15%;
+    font-size: 20px;
   }
 }
 
-.card .divider {
+/*.card .divider {
   height: 2px;
   width: 100%;
   background-color: #d7d7d7;
+}
+*/
+
+/////////// Media query ///////////////////
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .card {
+    height: auto;
+    padding: 2rem;
+
+    &__title {
+      font-size: 27px;
+    }
+
+    &__paragraph {
+      font-size: 24px;
+    }
+
+    &__goal {
+      margin: 0 5%;
+      font-size: 16px;
+    }
+  }
 }
