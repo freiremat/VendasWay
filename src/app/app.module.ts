@@ -9,6 +9,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PrivacyPolicyComponent } from './privacyPolicy/privacyPolicy.component';
 import { CardComponent } from './components/card/card.component';
 
+import {AccordionModule} from 'primeng/accordion';
+import {MenubarModule} from 'primeng/menubar';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +25,8 @@ import { CardComponent } from './components/card/card.component';
     BrowserModule,
     AppRoutingModule,
     MatIconModule,
+    AccordionModule,
+    MenubarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
