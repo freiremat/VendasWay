@@ -1,22 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --dark-black--1: #151515;
+  --dark-black--1: #151515;
 
-    --light--yellow--1:#e9c62c;
-    --light--yellow--2:#f6be00;
-    --light--yellow--3: #EEB8015C;
+  --light--yellow--1: #e9c62c;
+  --light--yellow--2: #f6be00;
+  --light--yellow--3: #eeb8015c;
+  --light--yellow--4: #F1BA00;
 
-    --dark:#000;
-    --white: #fff;
-  }
+  --black: #000;
+  --white: #fff;
+}
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+//////////// Customize primeng Styles ///////////////////////////////
+
+/*.p-menubar {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+
+  background: unset;
+  border: none;
+}
+
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem
+  > .p-menuitem-link
+  .p-menuitem-text {
+  color: var(--white);
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+  padding: 0 1.5rem;
+  border-radius: unset;
+  transition: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem
+  > .p-menuitem-link:not(.p-disabled):hover {
+  background: unset;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
+  box-shadow: unset;
+}
+
+.p-ink {
+  background: unset;
+}
+
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link,
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link:not(.p-disabled):hover {
+  background: unset;
+}
+
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link
+  .p-menuitem-text,
+.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem.p-menuitem-active
+  > .p-menuitem-link:not(.p-disabled):hover
+  .p-menuitem-text {
+  color: var(--light--yellow--4);
+}
+
+@media (max-width: 425px) {
+  .p-menubar
+    .p-menubar-root-list
+    > .p-menuitem
+    > .p-menuitem-link
+    .p-menuitem-text {
+    color: var(--dark);
   }
-  
-  body {
-    height: 100%;
-    width: 100%;
-  }
+}
+*/

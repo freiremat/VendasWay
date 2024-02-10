@@ -11,6 +11,8 @@ import { CardComponent } from './components/card/card.component';
 
 import {AccordionModule} from 'primeng/accordion';
 import {MenubarModule} from 'primeng/menubar';
+import { RippleModule } from 'primeng/ripple';
+import { ButtonModule } from 'primeng/button';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import {MenubarModule} from 'primeng/menubar';
     MatIconModule,
     AccordionModule,
     MenubarModule,
+    RippleModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
