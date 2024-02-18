@@ -13,6 +13,7 @@ import {AccordionModule} from 'primeng/accordion';
 import {MenubarModule} from 'primeng/menubar';
 import { RippleModule } from 'primeng/ripple';
 import { ButtonModule } from 'primeng/button';
+import { InfoComponent } from './components/info/info.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ButtonModule } from 'primeng/button';
     HeaderComponent,
     FooterComponent,
     PrivacyPolicyComponent,
-    CardComponent
+    CardComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
