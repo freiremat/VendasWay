@@ -41,13 +41,14 @@ p:last-child {
 
 .footer--info {
   display: flex;
-  justify-content: space-evenly;
-  width: 50%;
+  justify-content: center;
+  //width: 50%;
   margin-top: 1rem;
 
   &__description {
     color: var(--light--yellow--2);
     font-family: amiko, Sans-serif;
+    font-size: 18px;
   }
 
   &__contact {
@@ -86,7 +87,7 @@ p:last-child {
 
   .footer--info__description{
     margin-top: 1.25rem;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   footer img {
