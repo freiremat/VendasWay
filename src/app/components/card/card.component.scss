@@ -1,38 +1,18 @@
 .card {
   display: flex;
   flex-direction: column;
-  padding: 5rem 10rem;
+  padding: 4rem 10rem;
   background-color: var(--light--yellow--3);
-  gap: 20px;
+  gap: initial;
   width: auto;
   height: auto;
 
-  &__title {
-    font-size: 36px;
-    font-weight: 900;
-    text-align: center;
-  }
-
   &__paragraph {
-    font-size: 30px;
+    font-size: 34px;
     text-align: center;
-    letter-spacing: 0.075rem;
-  }
-
-  &__goal {
-    text-align: center;
-    font-weight: 300;
-    margin: 0 15%;
-    font-size: 20px;
+    letter-spacing: 0.085rem;
   }
 }
-
-/*.card .divider {
-  height: 2px;
-  width: 100%;
-  background-color: #d7d7d7;
-}
-*/
 
 /////////// Media query ///////////////////
 
@@ -40,18 +20,27 @@
   .card {
     height: auto;
     padding: 2rem;
-
-    &__title {
-      font-size: 27px;
-    }
+    gap: initial;
 
     &__paragraph {
-      font-size: 24px;
+      font-size: 22px;
     }
+  }
+}
 
-    &__goal {
-      margin: 0 5%;
-      font-size: 16px;
+@media (min-width: 426px) and (max-width: 768px) {
+  .card {
+    padding: 3rem 2rem;
+    gap: initial;
+
+    &__paragraph {
+      font-size: 26px;
     }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    padding: 4rem 2rem;
   }
 }
