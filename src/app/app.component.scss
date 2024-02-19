@@ -1,5 +1,6 @@
 .position-fixed {
   position: fixed;
+  z-index: 3;
   bottom: 75px;
   right: 50px;
   cursor: pointer;
