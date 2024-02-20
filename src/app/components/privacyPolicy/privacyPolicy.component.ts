@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 import { Router } from '@angular/router';
 
 
@@ -6,7 +6,15 @@ import { Router } from '@angular/router';
   selector: 'app-privacyPolicy',
   templateUrl: './privacyPolicy.component.html'
 })
+@Output()
+
 export class PrivacyPolicyComponent {
 
   constructor(private router: Router){}
+
+  privacyPolicy(){
+    alert('teste')
+  }
+
+  teste = false;
 }
