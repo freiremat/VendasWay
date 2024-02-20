@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { PrivacyPolicyComponent } from './privacyPolicy/privacyPolicy.component';
+import { PrivacyPolicyComponent } from './components/privacyPolicy/privacyPolicy.component';
 import { CardTitleComponent } from './components/card-title/card-title.component';
 
 import {AccordionModule} from 'primeng/accordion';
