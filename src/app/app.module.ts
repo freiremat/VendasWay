@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { PrivacyPolicyComponent } from './components/privacyPolicy/privacyPolicy.component';
 import { CardTitleComponent } from './components/card-title/card-title.component';
 
 import {AccordionModule} from 'primeng/accordion';
@@ -16,13 +15,11 @@ import { ButtonModule } from 'primeng/button';
 import { InfoComponent } from './components/info/info.component';
 import { CardCustomerComponent } from './components/card-customer/card-customer.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PrivacyPolicyComponent,
     CardTitleComponent,
     InfoComponent,
     CardCustomerComponent
@@ -34,7 +31,7 @@ import { CardCustomerComponent } from './components/card-customer/card-customer.
     AccordionModule,
     MenubarModule,
     RippleModule,
-    ButtonModule
+    ButtonModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
