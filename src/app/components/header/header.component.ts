@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { PrimeNGConfig } from 'primeng/api';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +7,7 @@ import { PrimeNGConfig } from 'primeng/api';
 })
 export class HeaderComponent {
 
-  constructor(private primengConfig: PrimeNGConfig) { }
+  constructor() { }
 
   ngOnInit(): void {
 

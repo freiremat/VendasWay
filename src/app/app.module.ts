@@ -8,10 +8,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CardTitleComponent } from './components/card-title/card-title.component';
 
-import {AccordionModule} from 'primeng/accordion';
-import {MenubarModule} from 'primeng/menubar';
-import { RippleModule } from 'primeng/ripple';
-import { ButtonModule } from 'primeng/button';
 import { InfoComponent } from './components/info/info.component';
 import { CardCustomerComponent } from './components/card-customer/card-customer.component';
 
@@ -27,11 +23,7 @@ import { CardCustomerComponent } from './components/card-customer/card-customer.
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatIconModule,
-    AccordionModule,
-    MenubarModule,
-    RippleModule,
-    ButtonModule, 
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
